@@ -1,0 +1,53 @@
+.root{
+	
+	-fx-background-color : white;
+	
+}
+
+.button{
+	
+	-fx-background-color : white;
+	-fx-border-color : white;
+	
+}
+
+.button:hover{
+	
+	-fx-border-color : aqua;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	
+}
+
+.label{
+	
+	-fx-font-size : 11pt;
+	
+}
+
+.button:pressed{
+	
+	-fx-border-color : aqua;
+	-fx-effect : innershadow( three-pass-box , rgba(0,0,0,0.6) , 5, 5 , 5 , 5 );
+	
+}
+
+#lbID{
+	
+	-fx-font-size : 8pt;
+	-fx-text-fill : red;
+	
+}
+
+#lbPW{
+	
+	-fx-font-size : 8pt;
+	-fx-text-fill : red;
+	
+}
+
+#lbPWCheck{
+	
+	-fx-font-size : 8pt;
+	-fx-text-fill : red;
+	
+}

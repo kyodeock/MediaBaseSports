@@ -1,0 +1,38 @@
+.root{
+	
+	-fx-background-color : white;
+	
+}
+
+.button{
+	
+	-fx-background-color : white;
+	-fx-border-color : white;
+	-fx-effect : dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	
+}
+
+.button:hover{
+	
+	-fx-border-color : aqua;
+	
+}
+
+#lbDiv{
+	
+	-fx-font-size : 10pt;
+	
+}
+
+.label{
+	
+	-fx-text-fill : black;
+	
+}
+
+.button:pressed{
+	
+	-fx-border-color : aqua;
+	-fx-effect : innershadow( three-pass-box , rgba(0,0,0,0.6) , 5, 5 , 5 , 5 );
+	
+}

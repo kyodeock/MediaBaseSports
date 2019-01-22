@@ -1,0 +1,50 @@
+.root{
+	
+	-fx-background-color : white;
+	
+}
+
+.button{
+	
+	-fx-background-color : white;
+	-fx-border-color : white;
+	
+}
+
+.button:hover{
+	
+	-fx-border-color : aqua;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+	
+}
+
+.label{
+	
+	-fx-font-size : 8.5pt;
+	
+}
+
+#dpBirth{
+	
+	-fx-font-size : 8.5pt;
+	
+}
+
+#tableView{
+	
+	-fx-font-size : 8pt;
+	
+}
+
+.button:pressed{
+	
+	-fx-border-color : aqua;
+	-fx-effect : innershadow( three-pass-box , rgba(0,0,0,0.6) , 5, 5 , 5 , 5 );
+	
+}
+
+.textfield{
+	
+	-fx-effect : dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+	
+}

@@ -1,0 +1,44 @@
+.root{
+	
+	-fx-background-color : white;
+	
+}
+
+.button{
+	
+	-fx-background-color : white;
+	-fx-border-color : white;
+	-fx-effect : dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	
+}
+
+.button:hover{
+	
+	-fx-border-color : aqua;
+	
+}
+
+.label{
+	
+	-fx-font-size : 11pt;
+	
+}
+
+.button:pressed{
+	
+	-fx-border-color : aqua;
+	-fx-effect : innershadow( three-pass-box , rgba(0,0,0,0.6) , 5, 5 , 5 , 5 );
+	
+}
+
+#txtID:focused{
+	
+	-fx-effect : dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+	
+}
+
+#txtPW:focused{
+	
+	-fx-effect : dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+	
+}
